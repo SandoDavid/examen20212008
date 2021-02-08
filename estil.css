@@ -166,7 +166,9 @@ label.opcio {
 label.opcio.col3 {
   width: 25%;
 }
-
+article#enunciat_1, #enunciat_2{
+  display: none;
+}
 label.opcio.col2 {
   width: 45%;
 }
@@ -255,9 +257,18 @@ button.boto {
   padding: 10px;
   margin: 10px;
   outline: none;
-  align-self: flex-end;
+  
 }
-
+div .botons{
+width: 1000;
+}
+.seguentDSS{
+width: auto;
+align-self: flex-end;
+}
+.anteriorDSS{
+  align-self: flex-start;
+}
 button.actiu {
 color: var(--botoActiuText);
 background-color: var(--botoActiuFons);
@@ -282,7 +293,7 @@ button.inactiu:hover,button.inactiu:disabled {
 }
 
 .botons {
-  display: flex;
+
 }
 
 

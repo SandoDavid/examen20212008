@@ -12,16 +12,16 @@
     </header>
     <main>
 
-      <article>
+      <article class="elementVisible">
         <span class="titol negre">MP06 - UF03<br>Activitat avaluativa</span>
         <span class="subtitol vermell">8 de febrer de 2021</span>
         <div class="botons">
           <button class="boto inactiu" disabled onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu"   onclick="mostraAlerta();">Següent &gt;&gt;</button>
+          <button class="boto actiu"   onclick="passaSeguentsDSS(this);">Següent &gt;&gt;</button>
         </div>
       </article>
 
-      <article id="enunciat_1">
+      <article id="enunciat_1" class="elementOcult">
         <span class="subtitol negre">Exercici 1</span>
         <div>
           <div class="enunciat">
@@ -44,11 +44,11 @@
         </div>
         <div class="botons">
           <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu" onclick="passaSeguentsDSS(this);">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
 
-      <article id="enunciat_2">
+      <article id="enunciat_2" class="elementOcult">
         <span class="subtitol negre">Exercici 2</span>
         <div>
           <div class="enunciat">
@@ -82,11 +82,11 @@
         </div>
         <div class="botons">
           <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu" onclick="passaSeguentsDSS(this);">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
     </main>
-      
+    <script src="./seguentSandovalDavid.js"></script>
     <script src="./examen.js"></script>
     <script src="./matrius.js"></script>
     <script src="./operacions.js"></script>
